@@ -1,8 +1,8 @@
   var config = {
-        host: "replace with your app host",
-        appid: "replace with your app ID",
-        apikey: "replace with your app key",
-        mode: "should be dev or prod"
+		  host: "https://hpcs.feedhenry.com",
+		  appid: "eFmNH-c8b1_VfXwakxdLUM19",
+		  appkey: "74fc07636817525113d6600c72958ef32cff9e0a",
+		  mode: "dev"
     };
 
     $fh.init(config, function(res) {
